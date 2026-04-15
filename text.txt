@@ -1,0 +1,40 @@
+
+
+
+Doceker 3 bolinadi :
+    Image | Continiar | Volume
+
+
+
+Image bu :
+    Conteniar qurush uchun yo'riqnoma
+
+conteniar bu :
+ver tuval box
+Volume:
+
+Docker image ls ->  bizda bor bolgan image larni ro'yhatini korsatadi
+Docker image rm [Image_id , Image_name] docer dafi image ochirib tashidi
+Docker pull image_name:tag -> docekrhub bos
+
+Docker run --name con_name -e POSTGRES_PASSWORD=1
+
+Docker ps -> bizda isglab turgan yani run bob turgan conternerlarni korsatib turadi
+
+Run bomaganlarini  korish: Hammasini korsatadi:
+  Docker ps -a komomdasi orqali
+
+docker statr conternini id yozami yoki conterneri name yozamiz
+
+docker rm -> yani stop bolgan contenerni o'chiradi
+
+docker stop -> contenerni to'xtatib beradi
+
+========== git hub uchun ==========
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abdumanovakbar-art/telegram_bot.git
+git push -u origin main
