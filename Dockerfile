@@ -4,4 +4,3 @@ WORKDIR /app
 COPY . .
 RUN pip install -r req.text
 CMD ["python3" , "main.py"]
-

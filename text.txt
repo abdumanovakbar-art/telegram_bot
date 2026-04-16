@@ -5,7 +5,6 @@ Doceker 3 bolinadi :
     Image | Continiar | Volume
 
 
-
 Image bu :
     Conteniar qurush uchun yo'riqnoma
 
