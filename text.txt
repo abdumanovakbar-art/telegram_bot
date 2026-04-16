@@ -37,3 +37,9 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/abdumanovakbar-art/telegram_bot.git
 git push -u origin main
+
+
+STOP   → Ctrl + C
+DELETE → docker compose down
+RUN    → docker compose up
+REBUILD→ docker compose up --build

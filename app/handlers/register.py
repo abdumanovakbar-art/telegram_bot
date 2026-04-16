@@ -51,12 +51,7 @@ async def restore_menusi(message: Message):
 async def order(message: Message, state: FSMContext):
     await message.answer("Slatlardan birini  tangalang 👇:", reply_markup=get_salat_keyboard())
     await state.set_state(SalatState.salat_name)
-    await state.clear()
 
-@dp.message(F.text == "Orqaga qaytish 🔙")
-async def order(message: Message, state: FSMContext):
-    await state.clear()
-    await message.answer("📋Bosh  Menudasiz ", reply_markup=main_menu())
 
 @dp.message(F.text == "Fast food 🌭")
 async def order(message: Message, state: FSMContext):

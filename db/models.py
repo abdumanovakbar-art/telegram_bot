@@ -2,7 +2,8 @@ from sqlalchemy import Column, Integer, BIGINT, create_engine, ForeignKey, Strin
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session
 from sqlalchemy.testing.schema import mapped_column
 
-engine = create_engine('postgresql+psycopg2://postgres:1@localhost/postgres')
+engine = create_engine('postgresql+psycopg2://postgres:1@host.docker.internal:5432/postgres')
+# postgresql+psycopg2://postgres:1@localhost/postgres
 session = Session(engine)
 class Base(DeclarativeBase):
     pass
